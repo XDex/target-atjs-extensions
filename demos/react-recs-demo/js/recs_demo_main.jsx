@@ -86,6 +86,9 @@ const SessionList = withRouter(React.createClass({
            {categories}
          </div>
          <hr/>
+         <div>
+           <img src={`img/${this.props.recsSettings.clientCode}/left_default.jpg`}/>
+         </div>
          <Mbox data-mbox="recsDemoLeftBar">
            <img src={`img/${this.props.recsSettings.clientCode}/left_default.jpg`}/>
          </Mbox>

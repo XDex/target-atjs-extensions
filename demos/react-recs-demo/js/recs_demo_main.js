@@ -107,6 +107,11 @@ var SessionList = withRouter(React.createClass({
         ),
         React.createElement("hr", null),
         React.createElement(
+          "div",
+          null,
+          React.createElement("img", { src: "img/" + this.props.recsSettings.clientCode + "/left_default.jpg" })
+        ),
+        React.createElement(
           Mbox,
           { "data-mbox": "recsDemoLeftBar" },
           React.createElement("img", { src: "img/" + this.props.recsSettings.clientCode + "/left_default.jpg" })
